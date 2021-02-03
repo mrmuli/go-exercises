@@ -74,3 +74,10 @@ func sum(args ...int) int { // sample variadic function
 	}
 	return total
 }
+
+func Loopa() {
+	count := 4
+	for i := 0; i < count; i++ {
+		fmt.Println("Hello")
+	}
+}
