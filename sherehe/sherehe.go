@@ -39,3 +39,19 @@ func Kelele() {
 	fmt.Printf("Type is %T", kelele)
 
 }
+
+func Kamati() {
+	kamati := make([]int, 10)
+
+	for i := 0; i <= 9; i++ {
+		kamati[i] = i
+	}
+	// fmt.Println(kamati) [0 1 2 3 4 5 6 7 8 9]
+	chizi := []int{10, 11, 12, 13, 14, 15, 16, 17, 18, 19}
+	mkubwa := append(kamati, chizi...)
+	// fmt.Println(mkubwa) [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19]
+
+	fmt.Printf("noma started here: %v\n", mkubwa[:6])
+	fmt.Printf("Kelele got here: %v\n", mkubwa[5:10])
+	fmt.Printf("Kamati brought the noise: %v\n", mkubwa[10:20])
+}

@@ -6,5 +6,6 @@ func main() {
 
 	fmt.Println("Hello Stranger...")
 	// Zusha()
-	Kelele()
+	// Kelele()
+	Kamati()
 }
