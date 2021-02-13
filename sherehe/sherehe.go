@@ -24,3 +24,18 @@ func Zusha() {
 	// format printing: print type of the array
 	fmt.Printf("Type is %T\n", noma)
 }
+
+// Kelele does the same as Zusha, only so much more noise :P
+func Kelele() {
+	kelele := make([]int, 10)
+
+	for i := 0; i <= 9; i++ {
+		kelele[i] = i
+	}
+	// fmt.Println(kelele)
+	for i, j := range kelele {
+		fmt.Println(i, j)
+	}
+	fmt.Printf("Type is %T", kelele)
+
+}
