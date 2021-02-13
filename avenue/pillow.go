@@ -81,3 +81,8 @@ func Loopa() {
 		fmt.Println("Hello")
 	}
 }
+
+func Structz() {
+	var x [5]int // arrays have size specified on declaration
+	fmt.Println(x)
+}
