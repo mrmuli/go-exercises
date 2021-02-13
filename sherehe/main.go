@@ -7,5 +7,8 @@ func main() {
 	fmt.Println("Hello Stranger...")
 	// Zusha()
 	// Kelele()
-	Kamati()
+	// Kamati()
+	// Shusha()
+	// Chuja()
+	Wasee()
 }

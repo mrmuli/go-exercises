@@ -55,3 +55,34 @@ func Kamati() {
 	fmt.Printf("Kelele got here: %v\n", mkubwa[5:10])
 	fmt.Printf("Kamati brought the noise: %v\n", mkubwa[10:20])
 }
+
+func Shusha() {
+	x := []int{42, 43, 44, 45, 46, 47, 48, 49, 50, 51}
+	x = append(x, 52)
+	fmt.Println(x)
+	x = append(x, 53, 54, 55)
+	fmt.Println(x)
+	y := []int{56, 57, 58, 59, 60}
+	x = append(x, y...)
+	fmt.Println(x)
+}
+
+func Chuja() {
+	z := []int{42, 43, 44, 45, 46, 47, 48, 49, 50, 51}
+	// expected elements: [42, 43, 44, 48, 49, 50, 51]
+	z = append(z[:3], z[6:10]...)
+	fmt.Println(z)
+}
+
+func Wasee() {
+	wasee := map[string][]string{
+		`dingo`: []string{"keroro", "nguai", "nangos"},
+		`jonte`: []string{"katia", "keroro", "tingika"},
+		`yobra`: []string{"keroro", "stroll", "nguai"},
+	}
+	// fmt.Println(wasee)
+
+	for k, v := range wasee {
+		fmt.Printf("%v loves: %v\n", k, v)
+	}
+}
