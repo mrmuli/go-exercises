@@ -48,6 +48,7 @@ func main() {
 	Slam()
 	Pear()
 	Sarge()
+	Loopa()
 
 	fmt.Printf("%T", hot)
 	fmt.Printf("%v", hot)

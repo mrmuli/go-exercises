@@ -33,15 +33,15 @@ func main() {
 	fmt.Printf("%T\n", ro)
 
 	fmt.Println("#####")
-	Decclare()
+	// Decclare()
 
 	ConvertType()
 
-	BitShifting()
+	// BitShifting()
 
-	PrintTypes()
+	// PrintTypes()
 
-	AssignShift()
+	// AssignShift()
 
 }
 
